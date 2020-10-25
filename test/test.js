@@ -17,7 +17,7 @@ describe('TreeNode', () => {
         it('should initialize `left` and `right` properties to null', () => {
             let a = new TreeNode('a');
             expect(a.left).to.equal(null);
-            expect(a.right).to.equal(null);            
+            expect(a.right).to.equal(null);
         });
     });
 });
@@ -66,6 +66,6 @@ describe('TreeOrder', () => {
     });
 });
 
-describe('BONUS: Leet Code #105', () => {
-    it('https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/');
+describe('Leet Code #105', () => {
+    it('BONUS: https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/');
 });
